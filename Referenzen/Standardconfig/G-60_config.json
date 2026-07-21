@@ -1,0 +1,580 @@
+{
+  "Auswahl": {
+    "StandardPfad": "\\\\europe.bmw.corp\\WINFS\\LAB-proj\\50_ARBEITSGRUPPEN\\Analytik_FC\\30_BZ-Messsysteme\\03_G60\\11_Messdaten\\JM"
+  },
+  "read_txt": {
+    "HeaderDerNurInZeileVorMessdatenIst": "Number"
+  },
+  "read_eis_csv": {
+    "HeaderDerNurInZeileVorMessdatenIst": "Frequency"
+  },
+  "read_csv": {
+    "leckageRefZeilen": [
+      "last"
+    ],
+    "leckageRefSpalten": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "10",
+      "12",
+      "11",
+      "13"
+    ],
+    "ocvRefZeilen": [
+      "1",
+      "inf"
+    ],
+    "ocvRefSpalten": [
+      "7"
+    ],
+    "pkRefZeilen": [
+      "1",
+      "inf"
+    ],
+    "pkRefSpalten": [
+      "7",
+      "14",
+      "15"
+    ]
+  },
+  "DCR": {
+    "Titel1": [
+      "\\fontsize{25} DCR [scan: -0,1 - 0,1 V; 10mV/s]"
+    ],
+    "Titel2": [
+      " \\fontsize{18} T_{Coolant}^{In}=amb; T_{Dew Point(A/C)}=amb/amb; p^{Out}_{A/C}=amb; Flow_{A/C}=0/0Nl/min"
+    ],
+    "xlabel": [
+      "\\fontsize{22} U [V]"
+    ],
+    "ylabel": [
+      "\\fontsize{22} I [A]"
+    ],
+    "legendFontSize": 14,
+    "xTickSize": 18,
+    "yTickSize": 18,
+    "Nachkommastellen": 1,
+    "checkRef": true,
+    "checkDUT": true,
+    "Linienbreite": 1,
+    "xAchsenLimits": [
+      -0.15,
+      0.15
+    ],
+    "yAchsenLimits": [
+      -0.1,
+      0.1
+    ],
+    "xyUntenStart": 78,
+    "xyUntenEnde": 128,
+    "xyObenStart": 178,
+    "xyObenEnde": 228,
+    "obererGrenzwert": 0.1,
+    "untererGrenzwert": -0.1,
+    "Spalten": [
+      3,
+      4
+    ]
+  },
+  "Leckage": {
+    "xlabel": [
+      "\\fontsize{22} Zelle"
+    ],
+    "ylabel": [
+      "\\fontsize{22} Leckrate [mbar/min]"
+    ],
+    "titleFontSize": 25,
+    "legendFontSize": 15,
+    "xTickSize": 18,
+    "yTickSize": 18,
+    "barTextSize": 10,
+    "NachkommastellenPlot": 2,
+    "NachkommastellenTabelle": 4,
+    "Grenzwert": 5,
+    "checkRef": true,
+    "checkDUT": true,
+    "yAchsenLimits": [
+      -2,
+      6
+    ],
+    "Zeilen": [
+      "Standard: letzte Zeile (sonst Zeilennummer angeben)"
+    ],
+    "Spalten": [
+      "D,E,F,G,J,L,K,M"
+    ]
+  },
+  "OCV_FallOff": {
+    "Titel1": [
+      "\\fontsize{25} Kurzschluss-, OCV/FallOff-Prüfung"
+    ],
+    "Titel2": [
+      "\\fontsize{18} T_{Coolant}^{In}=40°C; T_{Dew Point(A/C)}=dry/dry; p^{Out}_{A/C}=amb"
+    ],
+    "xlabel": [
+      "\\fontsize{22} Time"
+    ],
+    "ylabel": [
+      "\\fontsize{22} Voltage [V]"
+    ],
+    "legendFontSize": 14,
+    "yTickSize": 18,
+    "checkRef": true,
+    "checkDUT": true,
+    "lineWidth": 3,
+    "yAchsenLimits": [
+      0,
+      1.2
+    ],
+    "Grenzwert": 0.1,
+    "ZeilenVorGrenzwert": 50,
+    "StartManuell": 0,
+    "checkStartManuell": false,
+    "Darstellungslaenge": 2900,
+    "H2N2TextSize": 20,
+    "H2N2Grenzen": [
+      0,
+      595
+    ],
+    "OCVTextSize": 20,
+    "OCVGrenzen": [
+      615,
+      880
+    ],
+    "FallOffTextSize": 20,
+    "FallOffGrenzen": [
+      900,
+      2800
+    ],
+    "xMin": [
+      "auto"
+    ],
+    "xMax": [
+      "auto"
+    ],
+    "Zeilen": [
+      1,
+      "Inf"
+    ],
+    "Spalten": 7,
+    "RefGrenzenwerte": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "RefStartzeile": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "RefStartzeileNutzen": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "CV_ECSA": {
+    "Titel1": [
+      "\\fontsize{25} Cyclovoltammetrie [scan: 0,085 - 0,85V; xx&x mV/s]"
+    ],
+    "Titel2": [
+      "\\fontsize{18} T_{Coolant}^{In}=60°C,; T_{Dew Point(A/C)}=60/60°C; p^{Out}_{A/C}=amb, Flow_{A/C}=0,5/0,02Nl/min (H_{2}/N_{2})"
+    ],
+    "xlabel": [
+      "\\fontsize{22} U [V]"
+    ],
+    "ylabel": [
+      "\\fontsize{22} I [A]"
+    ],
+    "legendFontSize": 14,
+    "ECSALabelFontSize": 18,
+    "xTickSize": 18,
+    "yTickSize": 18,
+    "checkRef": true,
+    "checkDUT": true,
+    "checkFast": true,
+    "checkSlow": true,
+    "checkECSA": true,
+    "StartIntCath": 0.07,
+    "StartIntAn": 0.07,
+    "PtLoading": 0.45,
+    "Flaeche": 43.56,
+    "lineWidth": 2,
+    "refFastSlewRate": [
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "refPtLoading": [
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ],
+    "refActiveArea": [
+      43.56,
+      43.56,
+      43.56,
+      43.56,
+      43.56
+    ],
+    "xAchsenLimits": [
+      0,
+      0.9
+    ],
+    "yAchsenLimits": [
+      -3,
+      3
+    ],
+    "Nachkommastellen": 1,
+    "SpannungsbereichFuerDLSuche": [
+      0.3,
+      0.6
+    ],
+    "Spalten": [
+      3,
+      4
+    ]
+  },
+  "H2_Crossover": {
+    "Titel1": [
+      "\\fontsize{25} H_{2}-Crossover [scan: 0,06 - 0,8 V; 0,35mV/s]"
+    ],
+    "Titel2": [
+      "\\fontsize{18} T_{Coolant}^{In}=80°C; T_{Dew Point(A/C)}=80/80°C; p^{Out}_{A/C}=amb; Flow_{A/C}=1/1Nl/min (H_{2}/N_{2})"
+    ],
+    "xlabel": [
+      "\\fontsize{22} U [V]"
+    ],
+    "ylabel": [
+      "\\fontsize{22} I [A]"
+    ],
+    "legendFontSize": 14,
+    "xTickSize": 18,
+    "yTickSize": 18,
+    "IH2_CrossoverSize": 18,
+    "fitTextSize": 18,
+    "Nachkommastellen_I": 1,
+    "Nachkommastellen_y": 2,
+    "lineWidth": 1,
+    "xAchsenLimitsGesamt": [
+      0,
+      0.7
+    ],
+    "yAchsenLimitsGesamt": [
+      -3.5,
+      1.5
+    ],
+    "xAchsenLimitsFit": [
+      0,
+      0.9
+    ],
+    "yAchsenLimitsFit": [
+      0,
+      0.2
+    ],
+    "checkRef": true,
+    "checkDUT": true,
+    "Flaeche": 43.56,
+    "UMin": 0.3,
+    "UMax": 0.6,
+    "Spalten": [
+      3,
+      4
+    ]
+  },
+  "PK": {
+    "Titel1": [
+      "\\fontsize{25} TP_50_PolarisationCurve"
+    ],
+    "Titel2_PK1": [
+      "\\fontsize{18} T_{Coolant}^{In}=60°C,; T_{Dew Point(A/C)}=46/46°C; p^{Out}_{A/C}=2/2bara; Stoichiometry_{A/C}=1,5/2,0; Min-Flow_{A/C}=0,19/0,51Nl/min"
+    ],
+    "Titel2_PK2": [
+      "\\fontsize{18} T_{Coolant}^{In}=80°C,; T_{Dew Point(A/C)}=53/53°C; p^{Out}_{A/C}=2/2bara; Stoichiometry_{A/C}=1,5/2,0; Min-Flow_{A/C}=0,19/0,51Nl/min"
+    ],
+    "Titel2_PK3": [
+      "\\fontsize{18} T_{Coolant}^{In}=90°C,; T_{Dew Point(A/C)}=62/62°C; p^{Out}_{A/C}=2/2bara; Stoichiometry_{A/C}=1,5/2,0; Min-Flow_{A/C}=0,19/0,51Nl/min"
+    ],
+    "tempPK1": 60,
+    "tempPK2": 80,
+    "tempPK3": 90,
+    "xlabel": [
+      "\\fontsize{22} \\color{black} Current density [A/cm²]"
+    ],
+    "ylabel": [
+      "\\fontsize{22} \\color{black} Cell Voltage [V]"
+    ],
+    "legendFontSize": 14,
+    "xTickSize": 18,
+    "yTickSize": 18,
+    "LabelFontSize": 11,
+    "checkRef": true,
+    "checkDUT": true,
+    "lineWidth": 3,
+    "xAchsenLimits": [
+      0,
+      3.1
+    ],
+    "yAchsenLimits": [
+      0.3,
+      1
+    ],
+    "MWAbSekundenVor": 30,
+    "MesswerteProSekunde": 2,
+    "checkWerteInPlot": false,
+    "checkExport": false,
+    "Zeilen": [
+      1,
+      "Inf"
+    ],
+    "StromSetIndex": 4,
+    "SpannungsIndex": 2,
+    "StromdichteIndex": 5,
+    "TempIndex": 17,
+    "Spalten": [
+      2,
+      7,
+      13,
+      14,
+      15,
+      19,
+      20,
+      24,
+      25,
+      46,
+      47,
+      48,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56
+    ],
+    "Header": [
+      "Elapsed time",
+      "Cell Voltage (Channel 1)",
+      "Current",
+      "Current Set",
+      "Current Density",
+      "Total Anode Stack Flow",
+      "Total Anode Stack Flow Set",
+      "Total Cathode Stack Flow",
+      "Total Cathode Stack Flow Set",
+      "Pressure Anode Inlet (PT-411)",
+      "Pressure Anode Outlet (PT-412)",
+      "Pressure Anode Outlet Set",
+      "Pressure Cathode Inlet (PT-431)",
+      "Pressure Cathode Outlet (PT-432)",
+      "Pressure Cathode Outlet Set",
+      "Temperature Coolant Inlet (TC-461)",
+      "Temperature Coolant Inlet Set",
+      "Temperature Coolant Outlet (TC-462)"
+    ]
+  },
+  "Load__Points": {
+    "Titel": [
+      "\\fontsize{15} "
+    ],
+    "xlabel": [
+      "\\fontsize{12} Time [s]"
+    ],
+    "ylabelSize": 12,
+    "legendFontSize": 9,
+    "xTickSize": 10,
+    "yTickSize": 10,
+    "checkExport": false,
+    "MWAbSekundenVor": 60,
+    "MesswerteProSekunde": 2,
+    "lineWidth": 1,
+    "NachkommastellenStrom": 1,
+    "NachkommastellenSpannung": 1,
+    "Zeilen": [
+      1,
+      "inf"
+    ],
+    "Trigger": [
+      3315,
+      3313,
+      3314,
+      3311,
+      3312
+    ],
+    "TriggerNames": [
+      "Loadpoint 5",
+      "Loadpoint 3",
+      "Loadpoint 4",
+      "Loadpoint 1",
+      "Loadpoint 2"
+    ],
+    "ZeitIndex": 1,
+    "SpannungsIndex": 2,
+    "StromIndex": 4,
+    "Spalten": [
+      2,
+      7,
+      13,
+      14,
+      15,
+      19,
+      20,
+      24,
+      25,
+      46,
+      47,
+      48,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      67
+    ],
+    "Header": [
+      "Elapsed time",
+      "Cell Voltage (Channel 1)",
+      "Current",
+      "Current Set",
+      "Current Density",
+      "Total Anode Stack Flow",
+      "Total Anode Stack Flow Set",
+      "Total Cathode Stack Flow",
+      "Total Cathode Stack Flow Set",
+      "Pressure Anode Inlet (PT-411)",
+      "Pressure Anode Outlet (PT-412)",
+      "Pressure Anode Outlet Set",
+      "Pressure Cathode Inlet (PT-431)",
+      "Pressure Cathode Outlet (PT-432)",
+      "Pressure Cathode Outlet Set",
+      "Temperature Coolant Inlet (TC-461)",
+      "Temperature Coolant Inlet Set",
+      "Temperature Coolant Outlet (TC-462)",
+      "Trigger"
+    ],
+    "Colors": [
+      "#DDDAD2",
+      "#000000",
+      "#7030A0",
+      "#7030A0",
+      "#7030A0",
+      "#FF0000",
+      "#D16F72",
+      "#0070C0",
+      "#8799B6",
+      "#FF0000",
+      "#FF0000",
+      "#D16F72",
+      "#0070C0",
+      "#9DABC1",
+      "#9DABC1",
+      "#00FF00",
+      "#00FF00",
+      "#00CC99",
+      "#000000"
+    ],
+    "Limits": [
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto",
+      "auto"
+    ]
+  },
+  "EIS": {
+    "bodeXlabel": [
+      "\\fontsize{15} Frequency [Hz]"
+    ],
+    "bodeYlabelLeft": [
+      "\\fontsize{15} Impedance [Ohms]"
+    ],
+    "bodeYlabelRight": [
+      "\\fontsize{15} Phase (Degrees)"
+    ],
+    "nyquistXlabel": [
+      "\\fontsize{15} REAL PART [Ohm*cm²]"
+    ],
+    "nyquistYlabel": [
+      "\\fontsize{15} IMAGINARY PART [Ohm*cm²]"
+    ],
+    "legendFontSize": 9,
+    "xTickSize": 10,
+    "yTickSize": 10,
+    "lineWidth": 1,
+    "Flaeche": 273,
+    "sigmaAnzeigen": true,
+    "Titel": [
+      "\\fontsize{20} "
+    ],
+    "SplatenInPlotlegende": 5
+  },
+  "S_plus__plus_": {
+    "deviationBalancedArea": 20,
+    "segmentArea": 1,
+    "framerate": 10,
+    "singleFrame": 1,
+    "frequency": 1,
+    "cdLinesToDelete": "18",
+    "cdRowsToDelete": "6",
+    "tdLinesToDelete": "7, 8, 9, 7, 8, 9, 6, 7, 8, 9, 6, 7, 8, 9",
+    "tdRowsToDelete": "6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9",
+    "showPlotWindow": true,
+    "cdGridCheck": false,
+    "tdGridCheck": false,
+    "cdColorCheck": false,
+    "tdColorCheck": false,
+    "anodeIn": "X>1<Y",
+    "anodeOut": "X=Y=1",
+    "cathodeIn": "X>Y=1",
+    "cathodeOut": "Y>X=1",
+    "Zeilen": [
+      1,
+      "Inf"
+    ],
+    "Spalten": [
+      1,
+      8,
+      4,
+      3,
+      3,
+      38,
+      39,
+      35,
+      37,
+      24,
+      30,
+      12,
+      13,
+      16,
+      17,
+      28,
+      35,
+      13
+    ],
+    "Farbe_I": "#7030A0",
+    "Farbe_U": "#000000"
+  }
+}

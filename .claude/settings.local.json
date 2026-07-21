@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/usr/bin/python3 -)",
+      "Bash(python3 -c ' *)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(rm -f Referenzen/Referenz1/DCR/Referenz#*.json)",
+      "Bash(mkdir -p Beispieldaten)",
+      "Bash(python3 -)",
+      "PowerShell(\"{0:X}\" -f 4199968)",
+      "Bash(attrib \"Bilder\\\\*.PNG\" \"Bilder\\\\*.png\")"
+    ]
+  }
+}
